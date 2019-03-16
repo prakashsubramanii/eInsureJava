@@ -1,4 +1,4 @@
-package com.hackathon.einsure.model;
+/*package com.hackathon.einsure.model;
 
 import javax.persistence.Entity;
 
@@ -30,3 +30,4 @@ public void setTotalCount(int totalCount) {
 ;
 	
 }
+*/

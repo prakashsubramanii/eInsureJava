@@ -1,4 +1,4 @@
-package com.hackathon.einsure.model;
+/*package com.hackathon.einsure.model;
 
 import javax.persistence.Entity;
 import javax.persistence.Table;
@@ -107,4 +107,4 @@ public void setRiders(String riders) {
 	this.riders = riders;
 
 }
-}
+}*/

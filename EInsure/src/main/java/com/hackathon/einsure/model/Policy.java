@@ -4,18 +4,15 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.Table;
 
 @Entity
-@Table(name="")
 public class Policy {
 
-private String insurer;
-private String plan;
 @Id
 @GeneratedValue(strategy=GenerationType.AUTO)
-@Column(name="")
 private Long id;
+private String insurer;
+private String plan;
 private String entryAge;
 private int maxMaturityAge;
 private String policyTerm;

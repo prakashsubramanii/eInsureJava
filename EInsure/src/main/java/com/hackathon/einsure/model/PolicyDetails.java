@@ -1,14 +1,19 @@
-package com.hackathon.einsure.model;
+/*package com.hackathon.einsure.model;
 
 import java.util.List;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="")
 public class PolicyDetails {
 
+@Id
+@GeneratedValue(strategy=GenerationType.AUTO)
 private Long id;
+private Long policyId;
 private String description;
 private List<String> features;
 private TermsandConditions terms;
@@ -40,3 +45,4 @@ public void setTerms(TermsandConditions terms) {
 
 
 }
+*/
